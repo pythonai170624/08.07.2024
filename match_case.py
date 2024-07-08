@@ -1,5 +1,6 @@
 
-day: int = int(input("Enter a day and get it in a string:"))
+day: int = int(input("Enter a day and get it in a string (1-7):"))
+
 if day == 1:
     print("Sunday");
 elif day == 2:
@@ -35,4 +36,12 @@ match day:
     case _:
         #else
         print("Invalid day.");
+
+# match True:
+#     case _ if age > 18 or balance < 100_00:
+#           print('over 18')
+#     case _ if age > 9:
+#           print('over 9')
+#     case _ if age > 2:
+#           print('over 2')
 
